@@ -1,0 +1,30 @@
+.cell {
+    border: 1px solid black;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+}
+
+.cell__selected {
+    background-color: blue;
+}
+
+.robot {
+    fill: white;
+}
+
+.robot__north {
+    transform: rotate(180deg);
+}
+
+.robot__south {
+    transform: rotate(0deg);
+}
+
+.robot__east {
+    transform: rotate(270deg);
+}
+
+.robot__west {
+    transform: rotate(90deg);
+}
